@@ -6,19 +6,22 @@ public class NestedIMoreExamples {
 		// TODO Auto-generated method stub
 
 		boolean replCompleted=true;
-		int assignment=19;
+		int assignments=16;
+		
 		if(replCompleted) {
-			System.out.println("Great job!");
-			if(assignment>16) {
-				System.out.println("You did an amazing work!");
-			}else if(assignment>10) {
-				System.out.println("You did good, but you should do more");
-			}else if(assignment>6) {
-				System.out.println("You need to try do more HomeWork");
-			}
-		}else {
-			System.out.println("Please make sure you do homework");
 			
+			if (assignments>16) {
+				System.out.println("You did an amazing work");
+			} else if (assignments >10) {
+				System.out.println("You did good, but you should do more");
+			} else if(assignments >6) {
+				System.out.println("You need to try do more hw");
+			}else {
+				System.out.println("why?");
+			}
+			
+		}else {
+			System.out.println("Please make sure you do your homework");
 		}
 	}
 

@@ -5,20 +5,20 @@ public class SwitchDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		/*rules:
-		 * 1.Values in case MUTS be same datatype as a VARIABLE in switch
-		 * 2. We can not have Duplicate cases
-		 * 
+		/*
+		 * rules:
+		 * 	1. values in case MUTS be same datatype as a VARIABLE in switch
+		 * 	2. We can not have Duplicate Cases
 		 */
 		
-		
-		char gender='f';
+		char gender='h';
 		String description;
 		
 		switch(gender) {
 		
 		case 'm':
-		description="Male";	
+			description="Male";
+			break;
 		case 'M':
 			description="Male";
 			break;
@@ -28,22 +28,23 @@ public class SwitchDemo {
 		case 'F':
 			description="Female";
 			break;
-			default:
-				description="Unknown";
+		default:
+			description="Unknown";
 		}
-		System.out.println(gender+" means "+description);
+		
+		System.out.println(gender +" means "+description);
 		
 		/*
-		 * limitation of operator:
-		 * 1. we can't use logical Operators
-		 * 2. we can't use relational Operators
+		 * limitation of operators
+		 * 1. we cannot use logical Operators
+		 * 2. we cannot use relational operators
 		 * 
-		 * limitation of data types:
+		 * limitation of data types
 		 * 1. cannot use boolean
 		 * 2. cannot be used with double/float
-		 * 3. cannot be used with long
+		 * 2. cannot be used with long
 		 */
 		
 	
-
+	}
 }
